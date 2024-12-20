@@ -3,10 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Growmi Marketing</title>
+    <title>Growmi - Hip Hop Vibes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Permanent Marker', cursive;
+            background: linear-gradient(135deg, purple, black);
+            color: white;
+        }
+
+        header {
+            background: yellow;
+            color: black;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: purple;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            background: white;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: yellow;
+            color: black;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .cta {
+            margin: 2rem 0;
+        }
+
+        .cta a {
+            background: yellow;
+            color: black;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .cta a:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: black;
+            color: yellow;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Growmi Marketing!</h1>
-    <p>Your trusted marketing partner.</p>
+    <header>
+        <h1>Growmi</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">What We Do</a>
+            <a href="#contact">Connect Us</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Growmi, where creativity meets impact. We are all about making your brand shine with hip-hop vibes and graffiti style!</p>
+    </section>
+
+    <section id="services">
+        <h2>What We Do</h2>
+        <p>We offer top-notch marketing strategies, social media growth hacks, and branding solutions with a creative edge.</p>
+    </section>
+
+    <section id="contact" class="cta">
+        <h2>Connect With Us</h2>
+        <p>Email: contact@growmi.com</p>
+        <p>Follow us on Instagram, Facebook, and Twitter!</p>
+        <a href="mailto:contact@growmi.com">Get in Touch</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Growmi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
